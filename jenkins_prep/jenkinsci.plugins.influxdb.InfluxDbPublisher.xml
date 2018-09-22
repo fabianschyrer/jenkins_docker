@@ -1,0 +1,15 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkinsci.plugins.influxdb.DescriptorImpl plugin="influxdb@1.18">
+  <targets>
+    <jenkinsci.plugins.influxdb.models.Target>
+      <description>dp_dashboard_ssl</description>
+      <url>https://dp-influx.domain.com</url>
+      <username>jenkins</username>
+      <password><PASSWORD></password>
+      <database>tmp</database>
+      <retentionPolicy>autogen</retentionPolicy>
+      <exposeExceptions>true</exposeExceptions>
+      <usingJenkinsProxy>false</usingJenkinsProxy>
+    </jenkinsci.plugins.influxdb.models.Target>
+  </targets>
+</jenkinsci.plugins.influxdb.DescriptorImpl>
